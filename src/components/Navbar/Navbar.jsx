@@ -35,7 +35,7 @@ const Navbar = () => {
     <nav className={`app__navbar ${classFloat}`}>
       <div className="app__navbar-logo">
         {/* <img src={images.logo} alt="logo" /> */}
-        Raheel
+        Rehmat Qadeer
       </div>
       <ul className="app__navbar-links">
         {["home", "about", "work", "skills", "testimonials", "contact"].map(

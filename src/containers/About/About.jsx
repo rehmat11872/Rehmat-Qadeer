@@ -6,6 +6,7 @@ import fullstackImg from '../../assets/fullstack.jpg';
 import techImg from '../../assets/Ingram Robot.png';
 import problemImg from '../../assets/problemSolving.png';
 import leadershipImg from '../../assets/leadership.jpg';
+import profile from '../../assets/rehmat.jpeg';
 
 const About = () => {
   const viewResumeHandler = () => {
@@ -45,20 +46,22 @@ const About = () => {
       <div className="app__about-context app__flex">
         <div className="app__about-img app__flex">
           <div className="app__flex">
-            {/* <img
-              src={
-                aboutMe.profileImg
-                  ? urlFor(aboutMe.profileImg)
-                  : images.aboutmine
-              }
+          <img
+              src={profile}
               alt="Profile"
-            /> */}
+              style={{
+                borderRadius: "50%",
+                width: "160px",
+                height: "160px",
+                objectFit: "cover",
+              }}
+            />
           </div>
         </div>
         <div className="app__about-data app__flex">
           <h2 className="head-text">About Me</h2>
           <p>
-            Hi there! I'm <span>Raheel</span> a Flutter developer with a passion for creating top-notch <span>mobile apps</span>. Whether it's for <span>Android, iOS</span>, or leveraging the power of Flutter, I'm here to bring your app ideas to life. I focus on delivering high-quality apps that are visually appealing and user-friendly. With expertise in seamless user experiences and robust <span>backend</span> setups, I'm your go-to person for turning your <span>app vision</span> into reality. Ready to embark on this journey together? Let's create something extraordinary!
+            Hi there! I'm <span>Rehmat Qadeer</span> a Flutter developer with a passion for creating top-notch <span>mobile apps</span>. Whether it's for <span>Android, iOS</span>, or leveraging the power of Flutter, I'm here to bring your app ideas to life. I focus on delivering high-quality apps that are visually appealing and user-friendly. With expertise in seamless user experiences and robust <span>backend</span> setups, I'm your go-to person for turning your <span>app vision</span> into reality. Ready to embark on this journey together? Let's create something extraordinary!
           </p>
           <div>
             <button className="portfolio-button" onClick={viewResumeHandler}>

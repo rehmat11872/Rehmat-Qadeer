@@ -25,10 +25,10 @@ import about02 from "../assets/about02.png";
 import about03 from "../assets/about03.png";
 import about04 from "../assets/about04.png";
 import aboutImg from "../assets/aboutImg.svg";
-import aboutmine from "../assets/aboutIMG-my-edit.png";
+import aboutmine from "../assets/rehmat.jpeg";
 import aboutpea from "../assets/aboutIMG-pea.png";
 
-import profile from "../assets/profile.png";
+import profile from "../assets/rehmat.jpeg";
 import programmer from "../assets/programmer.svg";
 import testimonialBg from "../assets/testimonialBg.png";
 import circle from "../assets/circle.svg";

@@ -22,7 +22,7 @@ const Work = () => {
     const dummyWorks = [
       {
         title: "Sastaticket.pk Flights, Bus",
-        description: "Flutter application with API integration",
+        description: "A feature-rich Flutter application enabling users to book flights and buses. It includes seamless API integration and a user-friendly interface. Designed for both local and international travel bookings.",
         imgUrl: flight,
         projectLink: "https://play.google.com/store/apps/details?id=com.pk.sastaticket&hl=en&gl=US",
         codeLink: "NA",
@@ -30,37 +30,37 @@ const Work = () => {
       },
       {
         title: "Track Library",
-        description: "Flutter application with Api integration",
+        description: "A Flutter-based app that helps users manage and track their library books. Integrates external APIs for book data retrieval. Designed with intuitive UI for students and librarians.",
         imgUrl: track,
         projectLink: "https://play.google.com/store/apps/details?id=com.library.track&hl=en-US",
-        codeLink: "https://github.com/RaheelAhmad0066/Flutter_Tracker_App",
+        codeLink: "NA",
         tags: ["Flutter App"]
       },
       {
         title: "PSM App",
-        description: "Flutter application with Firebase integration",
+        description: "A complete Flutter app with Firebase for managing solar panel market data. It includes features like real-time updates, user authentication, and data analytics. Ideal for solar business tracking.",
         imgUrl: pak,
         projectLink: "https://play.google.com/store/apps/details?id=com.psmapp.opalaxis",
-        codeLink: "https://github.com/RaheelAhmad0066/psm_new_solar_market",
+        codeLink: "https://github.com/rehmat11872/psm_new_solar_market",
         tags: ["Flutter App"]
       },
       {
         title: "Polify Rider App",
-        description: "Flutter application with Firebase integration",
+        description: "A Flutter-based delivery rider app integrated with Firebase. It supports live location tracking, order management, and rider performance metrics. Built to streamline delivery operations.",
         imgUrl: poly,
         projectLink: "NA",
-        codeLink: "https://github.com/RaheelAhmad0066/Polify_RiderApp",
+        codeLink: "https://github.com/rehmat11872/Polify_RiderApp",
         tags: ["Flutter App"]
       },
-      
       {
         title: "Workout Women App",
-        description: "Flutter application with Firebase integration",
+        description: "Fitness app developed in Flutter with Firebase support, targeting women's workout routines. Includes guided exercises, timer, and daily progress tracking. Sleek UI and personalized plans.",
         imgUrl: workout,
         projectLink: "NA",
-        codeLink: "https://github.com/RaheelAhmad0066/Fitness_App",
+        codeLink: "https://github.com/rehmat11872/Fitness_App",
         tags: ["Flutter App"]
-      },
+      }
+      
       
     ];
     setWorks(dummyWorks);

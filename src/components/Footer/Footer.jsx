@@ -59,7 +59,7 @@ const Footer = () => {
           whileInView="view"
         >
           <a
-            href="https://www.linkedin.com/in/raheel-ahmad9224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            href="https://www.linkedin.com/in/rao-rehmat-qadeer-577703178/"
             target="_blank"
             rel="noreferrer"
             className="app__flex"
@@ -73,7 +73,7 @@ const Footer = () => {
           whileInView="view"
         >
           <a
-            href="https://www.facebook.com/profile.php?id=61573247567467&sk=about"
+            href="https://www.facebook.com/share/1AY7rbJ7Jx/"
             target="_blank"
             rel="noreferrer"
             className="app__flex"
